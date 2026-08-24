@@ -3,6 +3,7 @@
     public static void Main(string[] args)
     {
         //halloWriter();
+        //Console.WriteLine(sumTwoNumbers(10, 20));
     }
 
 
@@ -10,6 +11,11 @@
     {
         Console.WriteLine("hallo:");
         Console.WriteLine("user");
+    }
+
+    private static int sumTwoNumbers(int a, int b)
+    {
+        return a + b;
     }
 }
 
